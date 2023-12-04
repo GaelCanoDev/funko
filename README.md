@@ -1,2 +1,2 @@
 # funko
-Éste repositorio corresponde a la Comisión 23072 de Js/NodeJs de Codo a Codo 2023 en la cual estoy participando.
+En éste repositorio se aloja el proyecto de Codo a Codo que corresponde a la comisión de React JS en la cual estoy participando.
