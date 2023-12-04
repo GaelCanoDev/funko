@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<Head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Completá los datos para crear tu cuenta</title>
+     <link rel="icon" type="image/svg" href="/images/branding/isotype.svg">
+</Head>
+
+<Body style="background-color:beige">
+
+    <Header style="background-color: #30343F;">
+        <div>
+            <a href="/index.html">
+            <img src="/images/branding/logo_light_horizontal.svg" alt=""></a>
+        </div>
+        <div>
+            <nav>
+                <a href="/html/shop.html">SHOP</a>
+                <a href="/html/contact.html">CONTACTO</a>
+                <a href="/html/login.html">LOGIN</a>
+                <a href="/html/cart.html"> <img src="/images/icons/cart-icon.svg" alt="logo-del-carrito"></a>
+            </nav> 
+        </div>     
+    </Header>
+
+    <main>
+        <div>
+            <div>
+                <h1>CREAR CUENTA</h1>
+            </div>
+            <div>
+                <form action="/registrar_usuario" method="post">
+                    <label for="nombre">NOMBRE</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+                
+                    <label for="apellido">APELLIDO</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+        
+                    <label for="telefono">TELÉFONO</label>
+                    <input type="text" id="telefono" name="telefono" placeholder="Ingrese su teléfono" required>
+                
+                    <label for="email">CORREO ELECTRÓNICO</label>
+                    <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico" required>
+                
+                    <label for="password">CONTRASEÑA</label>
+                    <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" required>
+                
+                    <label for="confirmar_password">CONFIRMAR CONTRASEÑA</label>
+                    <input type="password" id="confirmar_password" name="confirmar_password" placeholder="Confirme su contraseña" required>
+                
+                    <input type="submit" value="REGISTRARSE">
+                </form>
+            </div>
+            <div>
+                YA TIENES CUENTA?
+                <a href="/html/login.html">Iniciar sesión</a>
+            </div>
+        </div>
+    </main>
+
+    <Footer style="background-color: #30343F; color: white;">
+        <div>
+            <nav>
+                <a href="/html/shop.html">SHOP</a>
+                <a href="/html/register.html">REGISTRARSE</a>
+                <a href="/html/login.html">INGRESAR</a>
+                <a href="/html/contact.html">CONTACTO</a>
+            </nav>
+        </div>
+        <div>
+            <a href="/index.html"><img src="/images/branding/isotype.svg" alt="logo de la web"></a>
+        </div>
+        <p>Creado con ♥ por <strong>Gael Cano Dev</strong>, gracias a Codo a Codo • FS NojdeJS 2023</p>
+    </Footer>
+
+</Body>
+</html>

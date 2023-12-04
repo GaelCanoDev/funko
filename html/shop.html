@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<Head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>FunkoShop - ¡Descubre el mundo de Funkos con Gael Cano!</title>
+     <link rel="icon" type="image/svg" href="/images/branding/isotype.svg">
+</Head>
+
+<Body style="background-color:beige">
+
+    <Header style="background-color: #30343F;">
+        <div>
+            <a href="/index.html">
+            <img src="/images/branding/logo_light_horizontal.svg" alt=""></a>
+        </div>
+        <div>
+            <nav>
+                <a href="/html/shop.html">SHOP</a>
+                <a href="/html/contact.html">CONTACTO</a>
+                <a href="/html/login.html">LOGIN</a>
+                <a href="/html/cart.html"> <img src="/images/icons/cart-icon.svg" alt="cart"></a>
+            </nav> 
+        </div>     
+    </Header>
+
+    <main>
+        <aside>
+            <div>
+                <label for="buscar">BUSCAR</label>
+                <input type="text" id="buscar" name="buscar" placeholder="item o categoria">
+            </div>
+            <div class="ordenar-por">
+                <label for="ordenar">ORDENAR POR</label>
+                <select id="ordenar">
+                    <option value="alfabetico">Orden alfabético</option>
+                    <option value="categoria">Categoría</option>
+                    <option value="precio">Precio</option>
+                </select>
+            </div>
+            <div class="filtro-precio">
+                <h2>PRECIO</h2>
+                <form id="filtro-form">
+                    <label for="min-precio">MIN</label>
+                    <input type="number" id="min-precio" name="min-precio" min="0" placeholder="0">
+                    <label for="max-precio">MAX</label>
+                    <input type="number" id="max-precio" name="max-precio" min="0" placeholder="0">
+                    <button type="submit">BUSCAR</button>
+                </form>
+            </div>
+            <div class="filtro-opciones">
+                <h2>FILTRAR</h2>
+                <form id="filtro-por-categoria">
+                    <label for="nuevos">
+                        <input type="checkbox" id="nuevos" name="nuevos" class="opcion-filtro">
+                        NUEVOS
+                    </label>
+            
+                    <label for="ofertas">
+                        <input type="checkbox" id="ofertas" name="ofertas" class="opcion-filtro">
+                        OFERTAS
+                    </label>
+            
+                    <label for="edicion-especial">
+                        <input type="checkbox" id="edicion-especial" name="edicion-especial" class="opcion-filtro">
+                        EDICION ESPECIAL
+                    </label>
+            
+                    <label for="favoritos">
+                        <input type="checkbox" id="favoritos" name="favoritos" class="opcion-filtro">
+                        FAVORITOS
+                    </label>
+                </form>
+            </div>
+            
+            
+        </aside>
+        <div>
+            <ol style="list-style: none;">
+                <li>
+                    <div>
+                        <a href="/products/stormtrooper-lightsaber.html">
+                            <div>
+                                <img src="/images/star-wars/trooper-1.webp" alt="stormtrooper-lightsaber">
+                            </div>
+                            <div>
+                                <div>
+                                    <span>STAR WARS</span>
+                                </div>
+                                <div>
+                                    <p>STORMTROOPER LIGHTSABER</p>
+                                </div>
+                                <div>
+                                    <span>$ 1799,99.-</span>
+                                </div>
+                                <div>
+                                    <span>3 CUOTAS SIN INTERÉS</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="/products/pidgeotto.html">
+                            <div>
+                                <img src="/images/pokemon/pidgeotto-1.webp" alt="pidgeotto-funko">
+                            </div>
+                            <div>
+                                <div>
+                                    <span>POKEMON</span>
+                                </div>
+                                <div>
+                                    <p>PIDGEOTTO</p>
+                                </div>
+                                <div>
+                                    <span>$ 1799,99.-</span>
+                                </div>
+                                <div>
+                                    <span>3 CUOTAS SIN INTERÉS</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>   
+                </li>
+                <li>
+                    <div>
+                        <a href="/products/luna.html">
+                            <div>
+                                <img src="/images/harry-potter/luna-1.webp" alt="luna-funko">
+                            </div>
+                            <div>
+                                <div>
+                                    <span>STAR WARS</span>
+                                </div>
+                                <div>
+                                    <p>STORMTROOPER LIGHTSABER</p>
+                                </div>
+                                <div>
+                                    <span>$ 1799,99.-</span>
+                                </div>
+                                <div>
+                                    <span>3 CUOTAS SIN INTERÉS</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="/products/luke.html">
+                            <div>
+                                <img src="/images/star-wars/luke-1.webp" alt="luke-funko">
+                            </div>
+                            <div>
+                                <div>
+                                    <span>STAR WARS</span>
+                                </div>
+                                <div>
+                                    <p>LUKE</p>
+                                </div>
+                                <div>
+                                    <span>$ 1799,99.-</span>
+                                </div>
+                                <div>
+                                    <span>3 CUOTAS SIN INTERÉS</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="/products/charmander.html">
+                            <div>
+                                <img src="/images/pokemon/charmander-1.webp" alt="charmander-funko">
+                            </div>
+                            <div>
+                                <div>
+                                    <span>POKEMON</span>
+                                </div>
+                                <div>
+                                    <p>CHARMANDER</p>
+                                </div>
+                                <div>
+                                    <span>$ 1799,99.-</span>
+                                </div>
+                                <div>
+                                    <span>3 CUOTAS SIN INTERÉS</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="/products/harry.html">
+                            <div>
+                                <img src="/images/harry-potter/harry-1.webp" alt="harry-funko">
+                            </div>
+                            <div>
+                                <div>
+                                    <span>HARRY POTTER</span>
+                                </div>
+                                <div>
+                                    <p>HARRY POTTER</p>
+                                </div>
+                                <div>
+                                    <span>$ 1799,99.-</span>
+                                </div>
+                                <div>
+                                    <span>3 CUOTAS SIN INTERÉS</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div></li>
+                <li>
+                    <div>
+                        <a href="/products/bobbafeth.html">
+                            <div>
+                                <img src="/images/star-wars/bobbafeth-1.webp" alt="bobbafeth-funko">
+                            </div>
+                            <div>
+                                <div>
+                                    <span>STAR WARS</span>
+                                </div>
+                                <div>
+                                    <p>BOBBAFETH</p>
+                                </div>
+                                <div>
+                                    <span>$ 1799,99.-</span>
+                                </div>
+                                <div>
+                                    <span>3 CUOTAS SIN INTERÉS</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div></li>
+                <li>
+                    <div>
+                        <a href="/products/dragonite.html">
+                            <div>
+                                <img src="/images/pokemon/dragonite-1.webp" alt="dragonite-funko">
+                            </div>
+                            <div>
+                                <div>
+                                    <span>POKEMON</span>
+                                </div>
+                                <div>
+                                    <p>DRAGONITE</p>
+                                </div>
+                                <div>
+                                    <span>$ 1799,99.-</span>
+                                </div>
+                                <div>
+                                    <span>3 CUOTAS SIN INTERÉS</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div></li>
+                <li>
+                    <div>
+                        <a href="/products/hermione.html">
+                            <div>
+                                <img src="/images/harry-potter/hermione-1.webp" alt="hermione-funko">
+                            </div>
+                            <div>
+                                <div>
+                                    <span>HARRY POTTER</span>
+                                </div>
+                                <div>
+                                    <p>HERMIONE</p>
+                                </div>
+                                <div>
+                                    <span>$ 1799,99.-</span>
+                                </div>
+                                <div>
+                                    <span>3 CUOTAS SIN INTERÉS</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="/products/baby-yoda.html">
+                            <div>
+                                <img src="/images/star-wars/baby-yoda-1.webp" alt="yoda-funko">
+                            </div>
+                            <div>
+                                <div>
+                                    <span>STAR WARS</span>
+                                </div>
+                                <div>
+                                    <p>BABY YODA</p>
+                                </div>
+                                <div>
+                                    <span>$ 1799,99.-</span>
+                                </div>
+                                <div>
+                                    <span>3 CUOTAS SIN INTERÉS</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="/products/pikachu.html">
+                            <div>
+                                <img src="/images/pokemon/pikachu-1.webp" alt="pikachu-funko">
+                            </div>
+                            <div>
+                                <div>
+                                    <span>POKEMON</span>
+                                </div>
+                                <div>
+                                    <p>PIKACHU</p>
+                                </div>
+                                <div>
+                                    <span>$ 1799,99.-</span>
+                                </div>
+                                <div>
+                                    <span>3 CUOTAS SIN INTERÉS</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="/products/snape-patronus.html">
+                            <div>
+                                <img src="/images/harry-potter/snape-patronus-1.webp" alt="snape-patronus-funko">
+                            </div>
+                            <div>
+                                <div>
+                                    <span>HARRY POTTER</span>
+                                </div>
+                                <div>
+                                    <p>SNAPE PATRONUS</p>
+                                </div>
+                                <div>
+                                    <span>$ 1799,99.-</span>
+                                </div>
+                                <div>
+                                    <span>3 CUOTAS SIN INTERÉS</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="/products/vulpix.html">
+                            <div>
+                                <img src="/images/pokemon/vulpix-1.webp" alt="vulpix-funko">
+                            </div>
+                            <div>
+                                <div>
+                                    <span>POKEMON</span>
+                                </div>
+                                <div>
+                                    <p>VULPIX</p>
+                                </div>
+                                <div>
+                                    <span>$ 1799,99.-</span>
+                                </div>
+                                <div>
+                                    <span>3 CUOTAS SIN INTERÉS</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </main>
+
+    <Footer style="background-color: #30343F; color: white;">
+        <nav>
+            <a href="/html/shop.html">SHOP</a>
+            <a href="/html/register.html">REGISTRARSE</a>
+            <a href="/html/login.html">INGRESAR</a>
+            <a href="/html/contact.html">CONTACTO</a>
+        </nav>
+        <p>Creado con ♥ por <strong>Gael Cano Dev</strong>, gracias a Codo a Codo • FS NojdeJS 2023</p>
+        <a href="/index.html"><img src="/images/branding/isotype.svg" alt="logo de la web"></a>
+    </Footer>
+
+</Body>
+</html>

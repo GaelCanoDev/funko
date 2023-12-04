@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<Head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>FunkoShop - ¡Descubre el mundo de Funkos con Gael Cano!</title>
+     <link rel="icon" type="image/svg" href="/images/branding/isotype.svg">
+</Head>
+
+<Body style="background-color:beige">
+
+    <Header style="background-color: #30343F;">
+        <div>
+            <a href="/index.html">
+            <img src="/images/branding/logo_light_horizontal.svg" alt="logo-de-funkoshop"></a>
+        </div>
+        <div>
+            <nav>
+                <a href="/html/shop.html">SHOP</a>
+                <a href="/html/contact.html">CONTACTO</a>
+                <a href="/html/login.html">LOGIN</a>
+                <a href="/html/cart.html"> <img src="/images/icons/cart-icon.svg" alt="imagen-del-carrito"></a>
+            </nav> 
+        </div>     
+    </Header>
+
+    <main>
+        <section>
+            <h2>ESCRIBA SU CONSULTA Y EN BREVE LE RESPONDEMOS</h2>
+            <form action="/enviar_consulta" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+            
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su teléfono">
+            
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico" required>
+            
+                <label for="consulta">Consulta:</label>
+                <textarea id="consulta" name="consulta" placeholder="Escriba su consulta (máximo 300 caracteres)" maxlength="300" rows="5"></textarea>
+            
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        
+        
+    </main>
+
+    <Footer style="background-color: #30343F; color: white;">
+        <div>
+            <nav>
+                <a href="/html/shop.html">SHOP</a>
+                <a href="/html/register.html">REGISTRARSE</a>
+                <a href="/html/login.html">INGRESAR</a>
+                <a href="/html/contact.html">CONTACTO</a>
+            </nav>
+        </div>
+        <div>
+            <a href="/index.html"><img src="/images/branding/isotype.svg" alt="logo de la web"></a>
+        </div>
+        <p>Creado con ♥ por <strong>Gael Cano Dev</strong>, gracias a Codo a Codo • FS NojdeJS 2023</p>
+    </Footer>
+
+</Body>
+</html>
